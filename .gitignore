@@ -1,0 +1,12 @@
+# Your device token lives here — never commit it.
+ingest.env
+
+# Runtime output
+readings/
+spool/
+lastrun.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
