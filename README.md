@@ -14,6 +14,11 @@ pushes each reading to Jumboshack over HTTPS.
 **[Build Guide](https://jumboshack.com/build)**. Streaming from something other than a WaterFurnace?
 Skip this and POST your own JSON — see the **[API docs](https://app.jumboshack.com/ingest-docs)**.
 
+> **Tracking air quality instead?** The [`airthings-sender/`](airthings-sender/) folder is a separate,
+> dependency-free sender that streams a WiFi Airthings monitor into Jumboshack over the Airthings cloud
+> API — no Pi or wiring needed. See its [README](airthings-sender/README.md) and the
+> [air-quality setup guide](https://jumboshack.com/air-build.html).
+
 ## What you need
 
 - A Raspberry Pi (a Pi Zero 2 W is plenty) on your network

@@ -10,3 +10,7 @@ lastrun.log
 __pycache__/
 *.pyc
 .venv/
+
+# Airthings sender uses .env
+.env
+airthings-sender/.env

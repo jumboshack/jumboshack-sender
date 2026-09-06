@@ -1,0 +1,10 @@
+# Self-serve Airthings → Jumboshack sender.
+# 1) cp .env.example .env   and fill in your values
+# 2) docker compose up -d
+services:
+  airthings-sender:
+    build: .
+    image: airthings-sender
+    container_name: airthings-sender
+    restart: unless-stopped
+    env_file: .env
